@@ -46,8 +46,8 @@
 .seccion {
   background-color:white;
   padding: 2%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 2% !important;
+  margin-bottom: 2% !important;
   box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
 }
 
@@ -63,3 +63,29 @@ h2 {
   color: #373B41;
 }
 
+#seccioncontactenos {
+  display: grid;
+  grid-template-areas: "area1 area1 area1 area1"
+                       "area2 area2 area3 area3"
+                       "area4 area4 area5 area5";     
+}
+
+#seccioncontactenos h2 {
+  grid-area: area1;
+}
+
+#seccioncontactenos h3#datos{
+  grid-area: area2;
+}
+
+#seccioncontactenos h3#ubicacion {
+  grid-area: area3;
+}
+
+#seccioncontactenos form {
+  grid-area: area4;
+}
+
+#seccioncontactenos div {
+  grid-area: area5;
+}
