@@ -28,62 +28,73 @@ nav ul {
 
 }
 
-h1 {
+ h1 {
     font-size: 3rem;
 }
 p {
-    font-size: 200%;
-}
+    font-size:large;
+    margin-right: 15%;
+    text-align: justify;
+} 
 
 #contenedorheader { 
     display: grid; 
     grid-template-areas: "area1 area2 area3 area4 area5";
-    padding: 30% 5% 1% 5%;
+    column-gap: 20px;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
-  #uno {  
-    grid-area: area1;
+
+#titulo1 {
+    margin-top: 30%;
 }
 
-#dos {
-    grid-area: area2;
+#titulo2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-#tres {
-    grid-area: area3;
-}
+.caja1 {
+    margin-top: 250%;
+   }
 
-#cuatro {
-    grid-area: area4;
-}
-
-#cinco {
-    grid-area: area5;
-}
+#uno {grid-area: area1;}
+#dos {grid-area: area2;;}
+#tres {grid-area: area3;}
+#cuatro {grid-area: area4;}
+#cinco {grid-area: area5;}
 
 
 #contenedorimagenes { 
     display: grid; 
     grid-template-areas: "cuadro1 cuadro2 cuadro3 cuadro4 cuadro5";
-    padding: 5%;
+    column-gap: 40px;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
-  #imagen1 {  
-    grid-area: cuadro1;
+#imagen1 {grid-area: cuadro1;}
+#imagen2 {grid-area: cuadro2;}
+#imagen3 {grid-area: cuadro3;}
+#imagen4 {grid-area: cuadro4;}
+#imagen5 {grid-area: cuadro5;}
+
+h2 {
+    margin-left: 6%;
 }
 
-#imagen2 {
-    grid-area: cuadro2;
+.imagentop {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 1em;
 }
 
-#imagen3 {
-    grid-area: cuadro3;
-}
-
-#imagen4 {
-    grid-area: cuadro4;
-}
-
-#imagen5 {
-    grid-area: cuadro5;
+.imagenbottom {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 1em;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
 }

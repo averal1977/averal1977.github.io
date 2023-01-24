@@ -1,91 +1,103 @@
-  h1 {
-    font-style: italic;
-  }
-
-  #secciondatos {
-    width: 50%;
-    margin: 0 auto;
-  }
-
-  h2 {
-    font-family: 'Open Sans', sans-serif
-  }
-
-  p {
-    text-align: center;
-  }
-
-  span {
-    text-align: center;
-  }
-
-  #seccionredes {
-    width: 30%;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  a {
-    font-weight: 600;
-  }
-
-
-  .seccion {
-    width: 50%;
-    margin: 0 auto; 
+h1 {
+  font-style: italic;
 }
 
-#seccionhabilidades table td {
-    text-align: center;
-}
-
-#seccionhabilidades table {
-    margin: 0 auto;
-}
-
-.seccion {
-  background-color:white;
-  padding: 2%;
-  margin-top: 2% !important;
-  margin-bottom: 2% !important;
-  box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+#secciondatos {
+  width: 50%;
+  margin: 0 auto;
 }
 
 h2 {
-  color: #0BCC7B;
-  text-decoration: none;
-  list-style-type: none;
+  font-family: 'Open Sans', sans-serif
+}
+
+p {
+  text-align: center;
+}
+
+span {
+  text-align: center;
+}
+
+#seccionhabilidades table {
+  margin: 0 auto;
+}
+
+#secciondatos table td {
+  text-align: center;
+}
+
+
+#seccionredes {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  font-weight: 600;
+}
+
+
+.seccion {
+  width: 50%;
+  margin: 0 auto; 
+}
+
+#seccionhabilidades table td {
+  text-align: center;
+}
+
+#seccionhabilidades table {
+  margin: 0 auto;
+}
+
+.seccion {
+background-color:white;
+padding: 2%;
+margin-top: 2% !important;
+margin-bottom: 2% !important;
+box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+}
+
+h2 {
+color: #0BCC7B;
+text-decoration: none;
+list-style-type: none;
 }
 
 #secciondatos p {
-  font-size: 1.4rem;
-  margin-to: 6%;
-  color: #373B41;
+font-size: 1.4rem;
+margin-to: 6%;
+color: #373B41;
 }
 
 #seccioncontactenos {
-  display: grid;
-  grid-template-areas: "area1 area1 area1 area1"
-                       "area2 area2 area3 area3"
-                       "area4 area4 area5 area5";     
+display: grid;
+grid-template-areas: "area1 area1 area1 area1"
+                     "area2 area2 area3 area3"
+                     "area4 area4 area5 area5";     
 }
 
-#seccioncontactenos h2 {
-  grid-area: area1;
+#uno {grid-area: area1;}
+#dos {grid-area: area2;}
+#tres {grid-area: area3;}
+#cuatro {grid-area: area4;}
+#cinco {grid-area: area5;}
+
+
+#piepagina {
+display: flex;
+flex-direction: column;
+text-align: center;
 }
 
-#seccioncontactenos h3#datos{
-  grid-area: area2;
-}
+ #cuatro {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+} 
 
-#seccioncontactenos h3#ubicacion {
-  grid-area: area3;
-}
-
-#seccioncontactenos form {
-  grid-area: area4;
-}
-
-#seccioncontactenos div {
-  grid-area: area5;
+.linea {
+  margin-bottom: 1%;
 }
