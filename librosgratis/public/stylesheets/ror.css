@@ -12,20 +12,19 @@ body {
 }
 
 .figurapequenas {
-    float: left;
     width: 100px;
     height: 140px;
     margin-right: 1em;
+    border: white 1rem solid;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);    
 }
 
 .figuragrande {
-    float: left;
-    width: 400px;
-    height: 400px;
-    margin-right: 1em;
+    width: 300px;
+    height: 300px;
+    border: white 1rem solid;
     box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
 }
-
 
 #contedorprincipal {
     display: flex;
@@ -35,12 +34,16 @@ body {
 }
 
 #seccion-imagengrande {
-    padding: 5%;
+    padding: 3%;
 }
 
 #texto {
-    padding: 5%;
+    padding: 3%;
     text-align: justify;
+}
+
+.letranegrita {
+    font-weight: bold;
 }
 
 #seccion-imagenpequena {
@@ -53,6 +56,7 @@ body {
 }
 
 #titulos {
+    margin-top: 2%;
     margin-left: 2rem;
 }
 
