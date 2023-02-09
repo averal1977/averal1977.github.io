@@ -16,10 +16,7 @@ body {
     font-family: 'Krub', sans-serif;
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100% );
 }
-/* .contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
-} */
+
 .boton {
     background-color: var(--secundario);
     color: var(--blanco);
@@ -63,8 +60,6 @@ h1,h2,h3 {
 .titulo span {
     font-size: 2rem;
 }
-
-
 
 /* Principal */
 .principal {
